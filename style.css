@@ -82,4 +82,7 @@ footer .gradient-style{
     .card{
         margin: 0 10px;
     }
+    .col{
+        padding-right: 0;
+    }
 }
