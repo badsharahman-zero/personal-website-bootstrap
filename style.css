@@ -1,7 +1,8 @@
 header h1{
     color: #EC4C7A;
 }
-.col-12{
+header .col-12,
+.bio .col-12{
     padding: 40px 50px 0;
 }
 .gradient-style{
@@ -38,7 +39,10 @@ header{
 .latest-work{
     background: url('latest-work-bg.png');
     background-size: cover;
-    padding: 70px 0;
+    padding: 70px 30px;
+}
+.latest-work .col-12 {
+    margin-bottom: 20px;
 }
 .latest-work h3{
     padding-bottom: 80px;
