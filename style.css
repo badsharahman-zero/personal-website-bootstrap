@@ -1,0 +1,92 @@
+header h1{
+    color: #EC4C7A;
+}
+header .col-12,
+.bio .col-12{
+    padding: 40px 50px 0;
+}
+.gradient-style{
+    padding: 0.6em 2rem;
+    background-image: linear-gradient(45deg, #EC5299, #ED4B6F);
+    color: white;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-image: linear-gradient(45deg, #ED4B6F,#EC5299);
+    color: white;
+}
+.btn:focus{
+    box-shadow: 0 0 0 .3rem #ed4b6e33;
+}
+header{
+    background: url('header-bg.png') no-repeat;
+    background-size: cover;
+}
+@media (max-width:1400px) and (min-width: 768px){
+    .mobile{
+        display: none;
+    }
+}
+@media (max-width: 767px){
+    .laptop{
+        display: none;
+    }
+}
+.bio{
+    background: url('biography-bg.png');
+    background-size: cover;
+}
+.latest-work{
+    background: url('latest-work-bg.png');
+    background-size: cover;
+    padding: 70px 30px;
+}
+.latest-work .col-12 {
+    margin-bottom: 20px;
+}
+.latest-work h3{
+    padding-bottom: 80px;
+}
+.box-padding{
+    padding: 50px;
+}
+footer{
+    background: url('footer-bg.png');
+    background-size: cover;
+}
+.gradient-style h5{
+    padding: 35px 0;
+}
+.gradient-style h1{
+    padding-bottom: 30px;
+}
+footer .gradient-style{
+    margin: 0 15% 100px;
+}
+.copyright{
+    padding: 50px 0 20px;
+}
+@media (max-width: 991px){
+    footer .gradient-style {
+        margin: 0 0 100px;
+    }
+}
+@media (max-width: 575px){
+    .gradient-style h1{
+        font-size: 110%;
+        padding-bottom: 15px;
+    }
+    .gradient-style h5{
+        font-size: 90%;
+        padding: 15px 0;
+    }
+    footer .gradient-style {
+        margin: 0 0 70px;
+    }
+    .card{
+        margin: 0 10px;
+    }
+    .col{
+        padding-right: 0;
+    }
+}
